@@ -14,7 +14,7 @@ How-to-use
 ==========
 
 1. The specified jar should be placed in project's library directory.
-2. Change lines in property file *bold*default.jasperreports.properties*bold* in jasperreports*.jar:
+2. Change lines in property file **default.jasperreports.properties** in **jasperreports\*.jar**:
 
 Replace:
 
