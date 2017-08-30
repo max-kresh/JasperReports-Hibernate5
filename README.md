@@ -1,4 +1,4 @@
-# JasperReports-Hibernate5
+# JasperReports6-Hibernate5
 
 Simple Java-library that consists of two classes and makes it possible to use JasperReports with 
 Hibernate 5.
