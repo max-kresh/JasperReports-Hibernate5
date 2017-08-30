@@ -3,11 +3,20 @@
 Simple Java-library that consists of two classes and makes it possible to use JasperReports with 
 Hibernate 5.
 
+About
+=====
+Basically it's two sligthly amended classes from JasperReports library:  
+**net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory**
+**net.sf.jasperreports.engine.query.JRHibernateQueryExecuter**
+
+How-to-build
+============
+
 It can be built with maven by typing in command line:
 
 `mvn package`
 
-Built jar-package will be placed in **target** directory.
+Built jar-file will be placed in **target** directory.
 
 
 How-to-use
@@ -23,7 +32,7 @@ net.sf.jasperreports.query.executer.factory.hql=net.sf.jasperreports.engine.quer
 net.sf.jasperreports.query.executer.factory.HQL=net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory
 ```
 
-**with:**
+**With:**
 
 ```
 net.sf.jasperreports.query.executer.factory.hql=org.maxkreshch.jasperreports.engine.query.JRHibernate5QueryExecuterFactory
