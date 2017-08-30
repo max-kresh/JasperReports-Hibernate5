@@ -23,7 +23,7 @@ Built jar-file will be placed in **target** directory.
 How-to-use
 ==========
 
-1. The specified jar should be placed in project's library directory.
+1. The specified jar should be placed in project's libraries directory.
 2. Change lines in file **default.jasperreports.properties** in **jasperreports\*.jar**:
 
 **Replace:**
