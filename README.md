@@ -5,7 +5,7 @@ Hibernate 5.
 
 About
 =====
-Basically it's two sligthly amended classes from JasperReports library:
+Basically, it's two sligthly amended classes from JasperReports library:
 
 **net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory**
 **net.sf.jasperreports.engine.query.JRHibernateQueryExecuter**
