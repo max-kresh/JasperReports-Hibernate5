@@ -5,9 +5,9 @@ Hibernate 5.
 
 It can be built with maven by typing in command line:
 
-mvn package
+`mvn package`
 
-Built jar-package will be placed in target directory.
+Built jar-package will be placed in **target** directory.
 
 
 How-to-use
@@ -16,14 +16,17 @@ How-to-use
 1. The specified jar should be placed in project's library directory.
 2. Change lines in property file **default.jasperreports.properties** in **jasperreports\*.jar**:
 
-Replace:
+**Replace:**
 
+```
 net.sf.jasperreports.query.executer.factory.hql=net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory
 net.sf.jasperreports.query.executer.factory.HQL=net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory
+```
 
-with:
+**with:**
 
+```
 net.sf.jasperreports.query.executer.factory.hql=org.maxkreshch.jasperreports.engine.query.JRHibernate5QueryExecuterFactory
 net.sf.jasperreports.query.executer.factory.HQL=org.maxkreshch.jasperreports.engine.query.JRHibernate5QueryExecuterFactory
-
+```
 
