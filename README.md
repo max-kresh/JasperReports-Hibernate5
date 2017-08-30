@@ -5,7 +5,8 @@ Hibernate 5.
 
 About
 =====
-Basically it's two sligthly amended classes from JasperReports library:  
+Basically it's two sligthly amended classes from JasperReports library:
+
 **net.sf.jasperreports.engine.query.JRHibernateQueryExecuterFactory**
 **net.sf.jasperreports.engine.query.JRHibernateQueryExecuter**
 
@@ -23,7 +24,7 @@ How-to-use
 ==========
 
 1. The specified jar should be placed in project's library directory.
-2. Change lines in property file **default.jasperreports.properties** in **jasperreports\*.jar**:
+2. Change lines in file **default.jasperreports.properties** in **jasperreports\*.jar**:
 
 **Replace:**
 
